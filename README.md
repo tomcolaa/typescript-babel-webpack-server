@@ -18,7 +18,8 @@ Ready to use development [webpack](https://webpack.js.org/ "webpack") server wit
 2. Public server
 `$ npm run-script build`
 This command will generate a build folder that you can upload to your server.
-
+\
+\
 ## How this code base created
 ### 1. npm install
 Run the following comand:

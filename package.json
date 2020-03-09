@@ -1,0 +1,39 @@
+{
+  "name": "typescript-babel-webpack-server",
+  "version": "1.0.0",
+  "description": "Dev server using typescript, babel and webpack ready to go!",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "bundle": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcolaa/typescript-babel-webpack-server.git"
+  },
+  "keywords": [
+    "typescript",
+    "babel",
+    "webpack",
+    "server"
+  ],
+  "author": "tomcolaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomcolaa/typescript-babel-webpack-server/issues"
+  },
+  "homepage": "https://github.com/tomcolaa/typescript-babel-webpack-server#readme"
+}

@@ -4,7 +4,7 @@ To add additional loaders have a look at the [webpack loaders](https://webpack.j
 
 **Table of Contents**
 
-[TOCM]
+[TOC]
 
 
 

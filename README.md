@@ -6,6 +6,8 @@ To add additional loaders have a look at the [webpack loaders](https://webpack.j
 
 [TOC]
 
+#H1 header
+
 
 
 # Getting started

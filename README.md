@@ -3,13 +3,11 @@ Ready to use development [webpack](https://webpack.js.org/ "webpack") server wit
 To add additional loaders have a look at the [webpack loaders](https://webpack.js.org/loaders/ "webpack loaders"), install them and change `webpack.config.js` according to the documentation.
 
 **Table of Contents**
+[Getting started](#start)
+[How to use it](#usage)
+[How to set this up on your own](#setup)
 
-[TOC]
-
-#H1 header
-
-
-
+<a name="start"></a>
 # Getting started
 1. Clone repository
 ```sh
@@ -25,7 +23,7 @@ $ cd typescript-babel-webpack-server
 ```sh
 $ npm install
 ```
-
+<a name="usage"></a>
 # How to use it
 1. Local web server
 ```sh
@@ -38,12 +36,11 @@ $ npm run-script build
 ```
 This command will generate a build folder that you can upload to your server.
 
-\
+<br />
+<br />
+<br />
 
-\
-
-\
-
+<a name="setup"></a>
 # How to set this up on your own
 In case you want to create this setup on your own you can do so by following these steps.
 ## 1. npm install

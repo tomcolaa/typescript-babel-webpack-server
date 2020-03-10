@@ -1,5 +1,6 @@
-import './index.css';
-import GithubImg from './github-octocat.png';
+import './css/reset.css';
+import './css/index.css';
+import GithubImg from './images/github-octocat.png';
 
 window.addEventListener("load", init);
 

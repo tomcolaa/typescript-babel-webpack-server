@@ -2,10 +2,12 @@
 Ready to use development [webpack](https://webpack.js.org/ "webpack") server with hot-reloading and support for [TypeScript](https://www.typescriptlang.org/ "TypeScript") and [Babel](https://babeljs.io/ "Babel"). This configuration also includes the webpack plugins `file-loader`, `style-loader` and `css-loader` to process image and css files. The following file types will be processed as long as they are part of the `src` directory: `.js`, `.ts`, `.jsx`, `.tsx`, `.png`, `.svg`, `.jpg`, `.gif`, `.css`.
 To add additional loaders have a look at the [webpack loaders](https://webpack.js.org/loaders/ "webpack loaders"), install them and change `webpack.config.js` according to the documentation.
 
-**Table of Contents**
-[Getting started](#start)
-[How to use it](#usage)
-[How to set this up on your own](#setup)
+**Table of Contents**<br />
+[Getting started](#start)<br />
+[How to use it](#usage)<br />
+[How to set this up on your own](#setup)<br />
+<br />
+<br />
 
 <a name="start"></a>
 # Getting started
@@ -23,6 +25,7 @@ $ cd typescript-babel-webpack-server
 ```sh
 $ npm install
 ```
+<br />
 <a name="usage"></a>
 # How to use it
 1. Local web server
